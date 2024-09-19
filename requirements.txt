@@ -1,0 +1,12 @@
+torch==2.4.0  
+datasets  
+transformers  
+peft  
+trl  
+accelerate==0.34.0  
+bitsandbytes  
+sentencepiece  
+polars==0.20.31  
+evaluate  
+rouge_score  
+gensim==3.6.0
