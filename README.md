@@ -47,13 +47,13 @@
     --output_dir /kaggle/workspace/output_accelerate/tst-summarization
 ```
 
-### 由于cnn-dailymail数据集过大，我们使用的 2x NVIDIA T4 显存不够， 在做数据集tokenize的时候，只能加载到70%就爆显存（超时错误）
+#### 由于cnn-dailymail数据集过大，我们使用的 2x NVIDIA T4 显存不够， 在做数据集tokenize的时候，只能加载到70%就爆显存（超时错误）
 
 
-### 更换数据集为 `autoevaluate/autoeval-staging-eval-project-cnn_dailymail-899c0b5b-10935468`后，虽然尺寸变小了，但是缺少验证集，同样报错
+#### 更换数据集为 `autoevaluate/autoeval-staging-eval-project-cnn_dailymail-899c0b5b-10935468`后，虽然尺寸变小了，但是缺少验证集，同样报错
 
 
-
+---
 
 ### 使用自定义数据集来分布式微调T5
 
