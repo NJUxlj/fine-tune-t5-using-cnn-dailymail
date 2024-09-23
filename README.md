@@ -1,5 +1,5 @@
-# 使用torchrun和accelerate脚本，在cnn-dailymail上微调google-T5模型
-使用torchrun 和 accelerate库的控制台命令或脚本来微调模型，其中包含了从模型选择，数据集自定义，修改，多卡微调，上传huggingface_hub的一整套标准SOP
+# Fine-Tuning google-T5 on CNN-DailyMail, using huggingface trainer, scripts, peft, trl, as a standard SOP
+我们在cnn-dailymail数据集上微调google-T5模型，微调方法包括：使用scripts、trainer、pytorch、peft、trl。另外，我们设计一个数据集转换函数，将bbc_news数据集转为了cnn_dailymail的格式。另外，还包含了多GPU微调，上传huggingface_hub的一整套标准SOP
 
 
 
